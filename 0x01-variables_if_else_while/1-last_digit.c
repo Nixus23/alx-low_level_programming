@@ -9,12 +9,12 @@
  */
 int main(void)
 {
-	int n;
+	int n, rem;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	int rem = n % 10;
+	rem = n % 10;
 
 	if (rem > 5)
 	{

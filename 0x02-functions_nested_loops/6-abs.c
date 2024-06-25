@@ -6,26 +6,9 @@
  */
 int _abs(int d)
 {
-
-	if (d >= 1)
-	{
-		int result = d;
-
-		return (result);
-	}
-	else if (d == 0)
-	{
-		int result = 0;
-
-		return (result);
-	}
-	else if (d >= -1)
-	{
-		int result = -d;
-
-		return (result);
-	}
-	return (result);
-
+	if (d >= 0)
+		return (d);
+	else
+		return (-d);
 
 }

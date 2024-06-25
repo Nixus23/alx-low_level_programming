@@ -7,19 +7,19 @@
 int _abs(int d)
 {
 
-	if (int d >= 1)
+	if (d >= 1)
 	{
 		int result = d;
 
 		return (result);
 	}
-	else if (int d == 0)
+	else if (d == 0)
 	{
 		int result = 0;
 
 		return (result);
 	}
-	else if (int d >= -1)
+	else if (d >= -1)
 	{
 		int result = -d;
 

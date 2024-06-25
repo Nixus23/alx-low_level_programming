@@ -20,8 +20,12 @@ int _abs(int d)
 		return (result);
 	}
 	else if (d >= -1)
+	{
 		int result = -d;
 
 		return (result);
+	}
+	return (result);
+
 
 }

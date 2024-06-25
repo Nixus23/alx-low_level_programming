@@ -4,9 +4,9 @@
  * @int: takesa an integer as its parameter
  * Return: returns an integer
  */
-int _abs(int)
+int _abs(int n)
 {
-	int n;
+	/*int n;*/
 
 	if (n >= 1)
 	{

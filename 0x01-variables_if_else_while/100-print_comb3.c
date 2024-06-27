@@ -18,8 +18,6 @@ int main(void)
 
 			if (n == 8 && m == 9)
 				break;
-
-			
 			putchar(',');
 			putchar(' ');
 			m++;

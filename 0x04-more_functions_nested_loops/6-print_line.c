@@ -8,7 +8,7 @@ void print_line(int n)
 {
 	int m;
 
-	if (n >= 1)
+	if (n > 0)
 	{
 		while (m < n)
 			_putchar('_');

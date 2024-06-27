@@ -16,9 +16,10 @@ int main(void)
 			putchar('0' + n);
 			putchar('0' + m);
 
-			if (m == 8 && n == 9)
+			if (n == 8 && m == 9)
 				break;
 
+			
 			putchar(',');
 			putchar(' ');
 			m++;

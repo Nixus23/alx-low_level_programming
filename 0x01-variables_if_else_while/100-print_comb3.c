@@ -13,8 +13,12 @@ int main(void)
 		m = n + 1;
 		while (m < 10)
 		{
-			putchar('0'+ n);
+			putchar('0' + n);
 			putchar('0' + m);
+
+			if (m == 8 && n == 9)
+				break;
+
 			putchar(',');
 			putchar(' ');
 			m++;

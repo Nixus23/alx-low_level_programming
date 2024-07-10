@@ -16,8 +16,7 @@ int _pow_recursion(int x, int y)
 
 	if (y != 0)
 	{
-		sol = (x * _pow_recursion (x, y - 1));
+		sol = (x * _pow_recursion(x, y - 1));
 	}
-	
 	return (sol);
 }

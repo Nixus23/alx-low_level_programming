@@ -23,7 +23,6 @@ int main(int argc, char *argv[])
 			prod = atoi(argv[1]) * atoi(argv[2]);
 			printf("%i\n", prod);
 			break;
-			
 		}
 		else
 		{

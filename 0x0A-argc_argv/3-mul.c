@@ -20,17 +20,10 @@ int main(int argc, char *argv[])
 
 		if (argc < 4)
 		{
-			if (atoi(argv[1]) != 0 && atoi(argv[2]) != 0)
-			{
-				prod = atoi(argv[1]) * atoi(argv[2]);
-				printf("%i\n", prod);
-				break;
-			}
-			else
-			{
-				printf("Error\n");
-				return (1);
-			}
+			prod = atoi(argv[1]) * atoi(argv[2]);
+			printf("%i\n", prod);
+			break;
+			
 		}
 		else
 		{

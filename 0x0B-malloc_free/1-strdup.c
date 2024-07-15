@@ -15,6 +15,11 @@ char *_strdup(char *str)
 	}
 	play = malloc(sizeof(char) * (*str) + 1);
 
+	if (play == NULL)
+	{
+		return (NULL);
+	}
+
 	while (*str)
 	{
 		play[i++] = *str++;

@@ -6,14 +6,15 @@
  */
 char *_strdup(char *str)
 {
-	unsigned int i = 0;
+	int i = 0;
 	char *play;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	play = malloc(sizeof(char) * (*str) + 1);
+	
+	play = malloc(sizeof(char) * (*str + 1));
 
 	if (play == NULL)
 	{

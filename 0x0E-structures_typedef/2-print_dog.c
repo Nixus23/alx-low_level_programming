@@ -7,7 +7,7 @@
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
-		exit;
+		return;
 	printf("Name: %s\n", (*d).name);
 	if ((d)->name == NULL)
 	{

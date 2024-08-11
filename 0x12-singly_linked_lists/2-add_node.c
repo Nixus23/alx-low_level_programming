@@ -21,7 +21,6 @@ list_t *add_node(list_t **head, const char *str)
 		free(link);
 		return (NULL);
 	}
-	
 	while (str[len])
 		len++;
 
